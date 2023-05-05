@@ -1,6 +1,7 @@
 body {
   font-family: "Inconsolata", monospace;
-  color: #0d1e2d;
+  color: #83147f;
+  background: aliceblue;
 }
 
 a {
@@ -215,7 +216,6 @@ h6,
   position: sticky;
   position: -webkit-sticky;
   top: 0;
-  /* required */
 }
 
 .list-line li {
@@ -259,7 +259,6 @@ h6,
   background: #000;
 }
 
-/* Services */
 .services i {
   font-size: 40px;
 }
@@ -268,7 +267,6 @@ h6,
   padding-top: 10px;
 }
 
-/* Contact Form */
 .php-email-form .error-message {
   display: none;
   color: #fff;
@@ -320,12 +318,11 @@ h6,
   }
 }
 
-/*--------------------------------------------------------------
-# Header
---------------------------------------------------------------*/
-/* Custom Navmenu */
 .custom-navmenu {
   background: #0d1e2d;
+  width: 275px;
+  position: absolute;
+  height: 1445px;
 }
 
 .custom-navmenu .custom-menu,
@@ -426,7 +423,6 @@ h6,
   top: 26px;
 }
 
-/* Hover */
 .burger:hover:before {
   top: 7px;
 }
@@ -435,7 +431,7 @@ h6,
   top: 23px;
 }
 
-/* Click */
+
 .burger.active span {
   opacity: 0;
 }
@@ -457,9 +453,6 @@ h6,
   outline: none;
 }
 
-/*--------------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
 .footer {
   padding: 0 0 4rem 0;
 }
